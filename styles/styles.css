@@ -90,6 +90,7 @@ footer div {
 
   footer {
     display: flex;
+    gap: 0 5px;
   }
 
   footer div {
@@ -97,17 +98,10 @@ footer div {
     margin-bottom: 28px;
     width: 25%;
   }
-
-  footer div:nth-child(even) {
-    margin-left: 5px;
-  }
-  
-  footer div:nth-child(3) {
-    margin-left: 5px;
-  }
   
   .first-container {
     display: flex;
+    gap: 0 5px;
   }
   
   .first-container div {
@@ -116,24 +110,16 @@ footer div {
     margin-bottom: 28px;
     box-sizing: border-box;
   }
-  
-  .first-container div:nth-child(1) {
-    margin-right: 5px;
-  }
 
   .second-container {
     display: flex;
+    gap: 0 5px;
   }
 
   .second-container div {
     width: 33%;
     height: 200px;
     margin-bottom: 28px;
-  }
-
-  .second-container div:nth-child(2) {
-    margin-left: 5px;
-    margin-right: 5px;
   }
 }
 
