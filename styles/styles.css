@@ -1,63 +1,63 @@
 body {
-	margin: 0;
+  margin: 0;
   margin: 0;
 }
 
 header {
-	width: 100%;
-	height: 100px;
-	background-color: #aa1b27;
-	margin-bottom: 10px;
+  width: 100%;
+  height: 100px;
+  background-color: #aa1b27;
+  margin-bottom: 10px;
   background-color: #aa1b27;
 }
 
 footer div {
-	width: 100%;
-	height: 200px;
-	background-color: #e8b1bd;
-	margin-bottom: 10px;
+  width: 100%;
+  height: 200px;
+  background-color: #e8b1bd;
+  margin-bottom: 10px;
   background-color: #e8b1bd;
 }
 
 .first-container div {
-	width: 100%;
-	height: 100px;
-	background-color: #d12263;
-	margin-bottom: 10px;
+  width: 100%;
+  height: 100px;
+  background-color: #d12263;
+  margin-bottom: 10px;
   background-color: #d12263;
 }
 
 .second-container div {
-	width: 100%;
-	height: 200px;
-	background-color: #aa1b27;
-	margin-bottom: 10px;
+  width: 100%;
+  height: 200px;
+  background-color: #aa1b27;
+  margin-bottom: 10px;
   background-color: #aa1b27;
 }
 
 @media (min-width: 768px) {
-	header {
-		margin-bottom: 20px;
-	}
+  header {
+    margin-bottom: 20px;
+  }
 
-	footer {
-		display: flex;
-	}
-	footer div {
-		width: 50%;
-		margin-bottom: 20px;
-	}
+  footer {
+    display: flex;
+  }
+  footer div {
+    width: 50%;
+    margin-bottom: 20px;
+  }
 
-	footer div:nth-child(odd) {
-		margin-right: 5px;
-	}
+  footer div:nth-child(odd) {
+    margin-right: 5px;
+  }
 
-	/* No supe como poner 2 contenedores debajo */
+  /* No supe como poner 2 contenedores debajo */
 
-	.first-container div,
-	.second-container div {
-		margin-bottom: 20px;
-	}
+  .first-container div,
+  .second-container div {
+    margin-bottom: 20px;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 640px) {
@@ -86,7 +86,7 @@ footer div {
   }
 }
 
-@media (min-width: 768px) and (max-width: 960px){
+@media (min-width: 768px) and (max-width: 960px) {
   header {
     width: 100%;
     height: 200px;
@@ -119,58 +119,58 @@ footer div {
 }
 
 @media (min-width: 1024px) {
-	body {
-		max-width: 1024px;
-		margin: 0 auto;
-	}
+  body {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
 
-	header {
-		margin-bottom: 28px;
-	}
+  header {
+    margin-bottom: 28px;
+  }
 
-	footer {
-		display: flex;
-	}
+  footer {
+    display: flex;
+  }
 
-	footer div {
-		width: 25%;
-	}
+  footer div {
+    width: 25%;
+  }
 
-	footer div:nth-child(even) {
-		margin-left: 5px;
-	}
+  footer div:nth-child(even) {
+    margin-left: 5px;
+  }
 
-	footer div:nth-child(3) {
-		margin-left: 5px;
-	}
+  footer div:nth-child(3) {
+    margin-left: 5px;
+  }
 
-	.first-container {
-		display: flex;
-	}
+  .first-container {
+    display: flex;
+  }
 
-	.first-container div {
-		width: 50%;
-		margin-bottom: 28px;
-		box-sizing: border-box;
-	}
+  .first-container div {
+    width: 50%;
+    margin-bottom: 28px;
+    box-sizing: border-box;
+  }
 
-	.first-container div:nth-child(1) {
-		margin-right: 5px;
-	}
+  .first-container div:nth-child(1) {
+    margin-right: 5px;
+  }
 
-	.second-container {
-		display: flex;
-	}
+  .second-container {
+    display: flex;
+  }
 
-	.second-container div {
-		width: 33%;
-		margin-bottom: 28px;
-	}
+  .second-container div {
+    width: 33%;
+    margin-bottom: 28px;
+  }
 
-	.second-container div:nth-child(2) {
-		margin-left: 5px;
-		margin-right: 5px;
-	}
+  .second-container div:nth-child(2) {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
   body {
     max-width: 1024px;
     margin: 0 auto;
