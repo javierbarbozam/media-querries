@@ -1,66 +1,25 @@
-body {
-  margin: 0;
-}
-
 header {
-  width: 100%;
-  height: 100px;
   background-color: #aa1b27;
-  margin-bottom: 10px;
-  background-color: #aa1b27;
-}
-
-footer div {
-  width: 100%;
-  height: 200px;
-  background-color: #e8b1bd;
-  margin-bottom: 10px;
-  background-color: #e8b1bd;
 }
 
 .first-container div {
-  width: 100%;
-  height: 100px;
-  background-color: #d12263;
-  margin-bottom: 10px;
   background-color: #d12263;
 }
 
 .second-container div {
-  width: 100%;
-  height: 200px;
-  background-color: #aa1b27;
-  margin-bottom: 10px;
   background-color: #aa1b27;
 }
 
-@media (min-width: 768px) {
-  header {
-    margin-bottom: 20px;
-  }
-
-  footer {
-    display: flex;
-  }
-  
-  footer div {
-    width: 50%;
-    margin-bottom: 20px;
-  }
-
-  footer div:nth-child(odd) {
-    margin-right: 5px;
-  }
-
-  /* No supe como poner 2 contenedores debajo */
-
-  .first-container div,
-  .second-container div {
-    margin-bottom: 20px;
-  }
+footer div {
+  background-color: #e8b1bd;
 }
 
-@media (min-width: 320px) and (max-width: 640px) {
+
+@media (min-width: 320px) {
+  body {
+    margin: 0;
+  }
+
   header {
     width: 100%;
     height: 100px;
@@ -86,35 +45,35 @@ footer div {
   }
 }
 
-@media (min-width: 768px) and (max-width: 960px) {
+@media (min-width: 640px) {
   header {
     width: 100%;
-    height: 200px;
-    margin-bottom: 20px;
+    height: 100px;
+    margin-bottom: 10px;
   }
-
+  
   footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
-
+  
   footer div {
-    height: 150px;
     width: 49%;
-    margin-bottom: 20px;
+    height: 200px;
+    margin-bottom: 10px;
   }
 
   .first-container div {
     width: 100%;
     height: 100px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 
   .second-container div {
     width: 100%;
-    height: 150px;
-    margin-bottom: 20px;
+    height: 200px;
+    margin-bottom: 10px;
   }
 }
 
@@ -123,17 +82,11 @@ footer div {
     max-width: 1024px;
     margin: 0 auto;
   }
-
+  
   header {
+    width: 100%;
+    height: 350px;
     margin-bottom: 28px;
-  }
-
-  footer {
-    display: flex;
-  }
-
-  footer div {
-    width: 25%;
   }
 
   footer div:nth-child(even) {
@@ -170,16 +123,6 @@ footer div {
   .second-container div:nth-child(2) {
     margin-left: 5px;
     margin-right: 5px;
-  }
-  body {
-    max-width: 1024px;
-    margin: 0 auto;
-  }
-
-  header {
-    width: 100%;
-    height: 350px;
-    margin-bottom: 28px;
   }
 
   footer {
@@ -189,7 +132,7 @@ footer div {
   footer div {
     height: 150px;
     margin-bottom: 28px;
-    width: 25%;
+    width: 24%;
   }
 
   footer div:nth-child(even) {
@@ -198,35 +141,5 @@ footer div {
 
   footer div:nth-child(3) {
     margin-left: 5px;
-  }
-
-  .first-container {
-    display: flex;
-  }
-
-  .first-container div {
-    width: 50%;
-    height: 100px;
-    margin-bottom: 28px;
-    box-sizing: border-box;
-  }
-
-  .first-container div:nth-child(1) {
-    margin-right: 5px;
-  }
-
-  .second-container {
-    display: flex;
-  }
-
-  .second-container div {
-    width: 33%;
-    height: 200px;
-    margin-bottom: 28px;
-  }
-
-  .second-container div:nth-child(2) {
-    margin-left: 5px;
-    margin-right: 5px;
   }
 }
